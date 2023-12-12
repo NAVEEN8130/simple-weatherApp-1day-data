@@ -1,0 +1,75 @@
+*{
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+}
+body{
+      max-width: 1024px;
+      margin: auto;
+      width: 100%;
+}
+.container{
+      display: flex;
+      /* background-image: url(./img/1_CG7aiC8_y8w-cFS-XcuZCw.png); */
+      height: 100vh;
+      background-size: cover;
+
+}
+
+.container{
+      display: flex;
+      justify-content: center;
+}
+.title{
+      box-shadow: 10px 10px 40px #372426;
+    padding: 20px;
+    border: 2px solid rgb(255, 255, 255);
+      /* width: 40%; */
+      text-align: center;
+      background-color: #372426;
+}
+.title h1{
+      font-size: 40px;
+      color: white;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.title input{
+      color: white;
+      border: none;
+      border-bottom: 2px solid rgb(255, 255, 255);
+      height: 35px ;
+      background-color: transparent;
+      width: 230px;
+      outline: none;
+      margin: 20px 0px;
+}
+.title button{
+      border: none;
+      font-size: 20px;
+      background-color: ;
+      padding: 8px 20px;
+}
+.timecontainer{
+      margin-top: 20px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+}
+.hour{
+
+}
+.desc{
+      font-size: 16px;
+      color: white;
+      gap: 6px;
+      display: flex;
+
+}
+
+.weatherimg{
+      color: white;
+      margin-top: 20px;
+      background: linear-gradient(rgba(0,0,0,0.4),rgb(0,0,0,0.6)), url(./img/w.png) ;
+      height: 50vh;
+
+}
